@@ -1,0 +1,503 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+#sec1{
+    display: flex;
+    font-size: larger;
+    flex-direction: row; 
+    justify-content: flex-end; 
+}
+
+
+.navbar{
+    background-color: rgb(47, 47, 49);
+    display: flex; 
+    padding-top: 40px;
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content:space-around;
+    height: 115px;
+}
+
+#box{
+    display: flex;
+    height: 56px;
+    flex-direction: row;
+    align-items:center;
+    padding-bottom: 30px;
+}
+
+#TituloNav{
+    color: white;
+}
+
+#Menu li {
+color: antiquewhite;
+font-size: large;
+
+}
+
+#Menu li:first-of-type{
+    color: white;
+}
+
+#Menu li:last-child{
+    color:green;
+}
+
+.card-img-overlay{
+    margin-left: 50%;
+    margin-right: 50px;
+    margin-top: 30%;
+    text-align: right;
+    justify-content:center;
+    height: 785px;
+}
+
+.card bg-dark text-white{
+    height: 785px;
+}
+
+#p1{
+padding-bottom: 25px;
+}
+
+#sec2{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    text-align: center; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 190px;
+
+}
+
+.card-body{
+    text-align: left;
+}
+
+#sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 56);
+}
+
+#p2{
+    width: 500px;
+    float: right;
+    margin-left: 50px;
+    padding-top: 30px;
+    text-align: justify;
+    align-self:flex-start;
+    color: white;
+}
+
+
+.container3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction:row;
+    height: auto;
+}
+
+ #fondo{
+    filter: opacity(0.5);
+ }
+
+
+h2, h5{
+    color: white;
+}
+
+#sec4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.row {
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+    
+#Parrafo{
+   font-size: medium;
+   padding-top: 18px;
+}
+
+.btnAmarillo{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    background-color: rgb(206, 173, 41);
+}
+
+.btnChico{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: white;
+    background-color: #3b8b90
+}
+
+.btnRojo{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: white;
+    background-color:rgb(126, 12, 12);
+}
+
+.btnChico:hover,
+.btnGris:hover,
+.btnRojo:hover,
+.btnAmarillo:hover{
+    transform: scale(2);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btnGris{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: white;
+    background-color:grey;
+}
+
+.btn-light{
+    border: 1px solid white;
+    background-color:rgba(205, 200, 200, 0.016);
+    color:white;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-success{
+    background-color:rgb(131, 169, 75);
+    border-radius: 5px;
+    border-color: rgb(131, 169, 75);
+    color:white;
+    font-size: large;
+    padding: 10px;
+    margin-right: 12px;
+}
+
+.btn-success:hover{
+    background-color: white;
+    color: rgb(131, 169, 75);
+}
+
+#Coment{
+    margin-top: 10px;
+    width: 40%; 
+    height: 120px;
+    padding: 12px 20px;
+    width: 915px;
+}
+
+input{
+    width: 28%;
+}
+
+#PF{
+font-size: xx-small;
+padding-right: 490px;
+}
+
+#btnFinal{
+    background-color:rgb(131, 169, 75);
+    border-radius: 5px;
+    padding: 10px;
+    border-color: rgb(131, 169, 75);
+    color:white;
+    font-size: large;
+    width:915px ;
+    font-size: x-large;
+    align-self: center;
+}
+
+#Menu li {
+    display: inline-flex;
+    flex-direction: row;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+#Menu li a:last-child{
+    color: rgb(13, 131, 13);
+}
+#Menu:first-child a{
+    color: white;
+}
+
+#TUL{
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction:row;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: rgb(19, 69, 98);
+}
+
+#foo{
+    padding-left: 200px;
+}
+
+#foo li{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+#foo li a{
+    list-style-type: none;
+    padding: 40px;
+    font-size: large;
+}
+
+#foo li a:hover{
+    color: rgb(13, 131, 13);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1115px){
+
+    header
+    #sec1, 
+    .card-img-overlay{
+        display: flex;
+        justify-content:flex-start;
+        align-content:stretch;
+        flex-direction:column;
+        font-size: 16px;
+        text-align: start;
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100%;  
+    }
+
+    .navbar{
+        height: auto;
+    }
+
+     h2{
+        display: flex;
+        justify-content:center;
+        text-align: center;
+    }
+
+    #Menu li{
+        font-size: 15px;;
+    }
+    
+    .buttons{
+     display: flex;
+     font-size: xx-small;
+    }
+
+    #PF{
+        display: flex;
+        padding-right: 3px;
+        padding-left: 110px;
+    }
+
+    input{
+        margin-bottom: 10px;
+        font-size: xx-small;
+    }
+    textarea{
+        font-size: xx-small;
+    }
+
+    #p{
+        font-size: xx-small;
+    }
+
+    .row row-cols-1 row-cols-md-3 g-4{
+        max-width: fit-content;
+    }
+
+    .btn-success,
+    #btnFinal{
+        font-size: small;
+    }
+
+}     
+
+@media only screen and (min-width: 360px) and (max-width: 500px){
+
+    .navbar{
+        height: auto;
+    }
+
+    #sec1, 
+    .card-img-overlay{
+        display: flex;
+        justify-content:flex-start;
+        align-content:stretch;
+        flex-direction:column;
+        font-size: small;
+        text-align: start;
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100%;  
+    }
+    .buttons{
+       float: inline-start;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;  
+        font-size: 12px;
+        margin-top: 0%;
+    }
+
+    #foo li a{
+        padding: 3px;
+        font-size:xx-small;
+    }
+
+    #foo{
+        display: flex;
+        flex-direction: row;
+        padding-left: 13px;
+    }
+
+    #Menu li{
+        display: inline-flex;
+        flex-direction: row;
+        padding-left: 13px;
+        padding: 3px;
+        font-size:xx-small;
+    }
+
+    #Menu li:hover{
+    font-size: 14px;
+    }
+
+    .card-text{
+        font-size: 10px;
+    }
+
+    #p2{
+        font-size: 10px;  
+        text-align: left;
+        width: fit-content;
+        padding-right: 35px;
+        padding-left: 0%;
+        
+    }
+
+    .btn-light,
+    #btnFinal
+    .btn-success{
+        font-size: small;
+    }
+
+    #btnFinal,
+    #Coment{
+        width: auto;
+    }
+}
+
+.cards{
+display: flex;
+justify-content: center;
+margin-top: 23px;
+}
+
+.card{
+    margin-left: 8px;
+}
+
+#titulos{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#textCard{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+#text{
+    display: flex;
+    justify-content: left;
+}
+
+#CardTit{
+color: black;
+}
+
+#p4{
+    margin-left: 46%;
+}
+
+#p3{
+    font-size: smaller;
+    color: rgb(66, 62, 62);
+    text-align: center;
+}
+
+#floatingTextarea{
+    background-color:rgb(191, 223, 243) ;
+}
+
+#BtnResume{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#btnBorrar{
+    padding-right: 250px;
+    padding-left: 330px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    background-color:  rgb(162, 236, 51);  
+    border-radius: 5px;
+    border-color:  rgb(162, 236, 51);
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+
+#btnRes{
+padding-right: 250px;
+padding-left: 300px;
+padding-top: 8px;
+padding-bottom: 8px; 
+background-color: rgb(162, 236, 51);
+border-radius: 5px;
+border-color:  rgb(162, 236, 51);   
+margin-right: 20px;
+color: white;
+}
